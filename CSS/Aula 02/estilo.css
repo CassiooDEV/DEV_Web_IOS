@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+body {
+    background-color: #e6e6fa;
+    color: #191970;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+h1 {
+    background-color: #191970;
+    color: #e6e6fa;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+h2 {
+    background-color: #aeaed4;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+}
