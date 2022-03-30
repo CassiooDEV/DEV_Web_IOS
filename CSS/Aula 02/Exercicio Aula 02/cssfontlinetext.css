@@ -1,0 +1,25 @@
+@charset "utf-8";
+body {
+ font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ line-height: 200%;
+ text-shadow: 3px 3px 5px #cccccc;
+}
+h2 {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ text-align: center;
+}
+p {
+ font-size: 0.90em;
+ text-indent: 3em;
+}
+h3 {
+ font-weight: bold;
+}
+h4 {
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 0.75em;
+ font-style: italic;
+}

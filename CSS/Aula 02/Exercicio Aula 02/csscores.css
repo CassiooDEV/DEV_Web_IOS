@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+body {
+    background-color: azure;
+}
+
+h1 {
+    color: #f0f;
+}
+
+h2 {
+    color: rgb(rgb(228, 0, 0), green, blue);
+}
+
+h3 {
+    color: #FF0000;
+}
+
+h4 {
+    color: hsl(30, 20%, 40%);
+}
