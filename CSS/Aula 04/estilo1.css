@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+.lista1{
+    color: white;
+    background-color: rgb(59, 58, 58);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+}
+.lista2{
+    color: white;
+    background-color: rgb(70, 66, 60);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+}
+.lista3{
+    color: white;
+    background-color: rgb(75, 62, 62);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+}
+h2{
+    font-size: 80px;
+    font-weight: 80;
+    font-style: italic;
+    background-color: red;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+div.conteiner{display:block;
+    margin: auto;
+    width: 17%;
+}
+div.conteiner2{display:block;
+    margin: auto;
+    width: 5%;
+}
+.footer{
+    text-align: center;
+}
+h1, h4{
+    text-align: center;
+}
