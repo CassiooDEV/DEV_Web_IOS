@@ -1,0 +1,58 @@
+@charset "utf-8";
+body{
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+} 
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+tr {
+    font-weight: 600;
+    border: 1px solid black;
+    background-color: rgb(202, 233, 243);
+    text-align: center;
+}
+th{
+    border: 1px solid black;
+    text-align: center;
+}
+nav{
+    background-color: rgb(206, 216, 245);
+    text-align: center;
+    color: white;
+}
+caption{
+    text-align: center;
+    font-size: x-large;
+    background-color: blue;
+    color: rgb(184, 236, 174);
+    font-weight: 600;
+}
+h2{
+    text-align: center;
+    font-weight: 600;
+    background-color: blue;
+    color:rgb(192, 235, 179);
+}
+h3{
+    text-align: center;
+    background-color: blue;
+    color:rgb(183, 228, 170);
+    font-weight: 600;
+}
+p{
+    text-align: center;
+    background-color: blue;
+    color:rgb(183, 228, 170); 
+}
+li{
+    font-family: 'Oswald', sans-serif;
+}

@@ -1,0 +1,6 @@
+@charset "utf-8";
+.tracejado{
+    border-width: 3px;
+    border-color: blue;
+    border-style: dashed;
+}
