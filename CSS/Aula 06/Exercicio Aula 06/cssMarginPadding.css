@@ -41,6 +41,7 @@ h1{
     font-size: 60px;
     font-family: 'Dancing Script', cursive;
     margin-bottom: 15px;
+    margin-top: 0px;
     border-style: groove;
 }
 .home{
