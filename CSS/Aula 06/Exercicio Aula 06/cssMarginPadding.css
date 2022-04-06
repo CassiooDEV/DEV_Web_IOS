@@ -36,11 +36,12 @@ main{
 h1{
     background-image: url(689100.png);
     border: 5px;
-    border-bottom-style: groove;
     font-family: 'Beau Rivage', cursive;
     text-align: center;
     font-size: 60px;
     font-family: 'Dancing Script', cursive;
+    margin-bottom: 15px;
+    border-style: groove;
 }
 .home{
     text-align: center;
@@ -56,6 +57,7 @@ a{
     margin: 10px;
     text-decoration: none;
     font-family: 'Dancing Script', cursive;
+    line-height: 90%;
 }
 .li{
     font-size: xx-large;
