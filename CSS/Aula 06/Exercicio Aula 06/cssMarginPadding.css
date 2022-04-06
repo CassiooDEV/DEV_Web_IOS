@@ -1,0 +1,71 @@
+@charset "UTF-8";
+body{
+    color: white;
+    background-image: url(bar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    font-size: 1.1em;
+}
+.história{
+    border: 5px;
+    border-style: groove;
+    border-top-style: groove;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+.bebidas{
+    background-image: url(689100.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15px;
+    padding: 10px;
+    border: 5px;
+    border-style: groove;
+    border-color: white;
+    font-family: 'Dancing Script', cursive;
+}
+h1{
+    background-image: url(689100.png);
+    border: 5px;
+    border-bottom-style: groove;
+    font-family: 'Beau Rivage', cursive;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+}
+.home{
+    text-align: center;
+    margin: 5px;
+    font-family: 'Dancing Script', cursive;
+}
+a{
+    color: whitesmoke;
+    padding: 7px;
+    border: 5px;
+    border-style: groove;
+    border-color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+}
+.li{
+    font-size: xx-large;
+}
+.final{    
+    margin: 15px;
+    padding: 10px;
+    border: 5px;
+    border-style: groove;
+    border-color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: medium;
+}
