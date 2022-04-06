@@ -44,8 +44,11 @@ nav{
     text-align: center;
 }
 a{
+    background-color: black;
+    color: white;
     border: 5px;
     border-style: groove;
-    border-color: #000000;
+    border-color: #white;
     margin: 25px;
+    padding: 10px 15px ;
 }
