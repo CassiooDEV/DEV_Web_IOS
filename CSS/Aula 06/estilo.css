@@ -1,14 +1,40 @@
 @charset "utf-8";
+
 * {
- margin: 0;
- padding: 0;
- border: none;
- top: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+    top: 0;
 }
+
 body {
- background-color: #f4f4f4;
- color: #555555;
- font: normal 16px Arial, Helvetica, sans-serif;
- line-height: 1.6em;
- margin: 0;
+    background-color: #f4f4f4;
+    color: #555555;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    margin: 0;
 }
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.container {
+    width: 80%;
+    margin: 20px 30px;
+}
+.box-1 {
+    background-color: #333;
+    color: #fff;
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+    padding: 20px;
+   }
