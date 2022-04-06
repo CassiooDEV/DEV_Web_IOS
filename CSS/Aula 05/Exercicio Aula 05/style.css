@@ -42,3 +42,9 @@ footer{
 nav{
     text-align: center;
 }
+a{
+    border: 5px;
+    border-style: groove;
+    border-color: #000000;
+    margin: 25px;
+}
