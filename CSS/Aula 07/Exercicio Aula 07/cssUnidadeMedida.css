@@ -3,15 +3,49 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-image: url(lebron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color:whitesmoke;
+}
 header{
     font-size: 25px;
-    margin: 10px;
+    margin: 10pt;
+    padding: 1cm;
 }
 article{
-    margin: 10px;
+    margin: 10pt;
     font-size: 25px;
+    padding: 1cm;
 }
 section{
     font-size: 25px;
-    margin: 10px;
+    margin-top: 160pt;
+    padding: 0.5cm;
+    border: 5px;
+    border-style: groove;
+    color: white;
 }
+.historia{
+    font-size: 75%;
+    padding: 0.5em;
+}
+.lista{
+    font-size: 75%;
+    padding: 0.2em;
+}
+nav{
+    text-align: center;
+    font-size: 1rem;
+}
+a{
+    border: 0.4rem;
+    border-style: groove;
+    color:white;
+    padding: 0.7em;
+    margin:2ch;
+    text-decoration: none;
+}
+
