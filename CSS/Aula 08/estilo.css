@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img1{
+    float: left;
+}
+img{
+    width: 200px;
+}
+.div1{
+    margin-top: 30%;
+}
+.img2{
+    float: left;
+}
+.p1{
+    clear: none;
+}
+.img3{
+    float: right;
+}
