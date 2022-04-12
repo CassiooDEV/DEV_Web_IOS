@@ -152,3 +152,9 @@ main {
     font-style: oblique;
     margin: 1rem;
 }
+footer p::before{
+    content: "2022 ©|";
+}
+footer p::after{
+    content: "| Cassio";
+}
