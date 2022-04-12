@@ -1,0 +1,45 @@
+@charset "UTF-8";
+::selection{
+    background-color: red;
+    color:white;
+}
+p::selection{
+    background-color: rgb(21, 231, 21);
+}
+p::first-letter{
+    font-size: 200%;
+    background-color: black;
+    color: white;
+}
+img{
+    height: 400px;
+}
+li:nth-child(1){
+    background-color: green;
+    color:white;
+}
+li:nth-child(4){
+    background-color: green;
+    color:white;
+}
+li:nth-child(6){
+    background-color: green;
+    color:white;
+}
+li:nth-child(8){
+    background-color: green;
+    color:white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: rgb(6, 94, 6);
+}
+h2{
+    color: green;
+}
+.img1{
+    float: left;
+}
