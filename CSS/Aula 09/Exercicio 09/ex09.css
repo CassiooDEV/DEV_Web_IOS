@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+main{
+    color: #C1C2BC;
+}
+figure img {
+    height: 400px;
+}
+
+.container {
+    padding: 2em;
+}
+
+figure figcaption {
+    font-size: 1.0rem;
+    font-weight: 600;
+    font-style: oblique;
+}
+
+.resumo {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 1.0rem;
+    padding: 2.0rem;
+    border: 2px solid #314A20;
+    border-radius: 12px;
+    background-color: #72543677;
+}
+
+.titas {
+    margin: 1rem;
+    padding: 2rem;
+    border: 2px solid #314A20;
+    border-radius: 12px;
+    background-color: #72543662;
+}
+
+p::selection {
+    background-color: #314A20;
+    color: #C1C2BC;
+}
+
+li::selection {
+    background-color: #314A20;
+    color: #C1C2BC;
+}
+.titas p::first-letter{
+    font-size: 200%;
+    background-color: #725436;
+    color: #C1C2BC;
+}
+.resumo a{
+    color: #314A20;
+}
+.titas li{
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: #725436;
+}
+.titas p{
+    font-size: x-large;
+}
+.titas img{
+    width: 50%;
+}
+h1{
+    color: #C1C2BC;
+    font-size: xx-large;
+    text-align: center;
+    background-color: #725436;
+    font-style: oblique;
+}
+.sobre{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 1.0rem;
+    padding: 2.0rem;
+    border: 2px solid #314A20;
+    border-radius: 12px;
+    background-color: #7254366e;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    color: #C1C2BC;
+    border: 5px solid #725436;
+    border-radius: 12px;
+    padding: 10px;
+    font-size: x-large;
+    text-decoration: none;
+    margin-left: 40px;
+    font-style: oblique;
+}
+header h1{
+    color: #C1C2BC;
+    font-size: 80px;
+    text-align: center;
+    background-color: #7254366b;
+    font-style: oblique;
+}
+footer{
+    text-align: center;
+    font-size: large;
+    background-color: #72543680;
+}
