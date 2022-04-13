@@ -1,0 +1,48 @@
+@charset "UTF-8";
+body{
+    background-image: url(stretched-1920-1080-1130240.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+    padding: 10px;
+}
+.col {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.dinos{
+    background: rgba(255, 255, 255, 0.555);
+    color: #555;
+    list-style-type: none;
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+.dinos .header{
+    background-color: aqua;
+    font-size: 200%;
+    text-decoration: underline;
+}
+.dinos li{
+    padding: 20px;
+    border-bottom: 20px solid rgba(238, 238, 238, 0.808);
+    text-align: center;
+    font-size: 150%;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-right: 275px;
+    font-style: oblique;
+    color: white;
+}
+@media(max-width:768px) {
+    .col {
+    width: 100%;
+    }
+   }
+
