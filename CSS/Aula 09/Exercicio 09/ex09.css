@@ -162,3 +162,7 @@ footer p::after{
     background-color: aliceblue;
     opacity: 0.5;
 }
+figcaption::first-letter{
+    font-size: 70%;
+    color: brown;
+}
