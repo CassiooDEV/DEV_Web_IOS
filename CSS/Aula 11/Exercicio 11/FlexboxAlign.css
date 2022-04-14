@@ -43,6 +43,7 @@ body{
     background-color: rgba(0, 0, 0, 0.253);
     font-size: 15px;
     font-weight: 600;
+    align-self: center;
 }
 .info{
     flex: 1;
@@ -57,4 +58,21 @@ body{
 }
 .img1{
     float: left;
+}
+img{
+    height: 400px;
+}
+.img2{
+    margin-right: 10px;
+    float: left;
+}
+.img3{
+    float: right;
+}
+.curiosidades p{
+    margin-top: 120px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
 }
