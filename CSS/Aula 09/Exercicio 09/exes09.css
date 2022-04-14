@@ -43,7 +43,3 @@ h2{
 .img1{
     float: left;
 }
-.imgnot:hover{
-    background-color: aliceblue;
-    opacity: 0.5;
-}

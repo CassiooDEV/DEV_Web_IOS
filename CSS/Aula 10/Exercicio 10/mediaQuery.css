@@ -10,7 +10,7 @@ main{
 }
 .col {
     float: left;
-    width: 30%;
+    width: 25%;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -45,4 +45,9 @@ h1{
     width: 100%;
     }
    }
-
+   .col1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
