@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "primeiro primeiro primeiro" "segundo segundo segundo" "terceiro terceiro terceiro";
+    background-color: gray;
+}
+
+.item-1 {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    grid-area: primeiro;
+}
+
+.item-2 {
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+    grid-area: segundo;
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+.item-3 {
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    grid-area: terceiro;
+}
