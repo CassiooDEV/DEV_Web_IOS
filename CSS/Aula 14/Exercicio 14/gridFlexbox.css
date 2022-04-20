@@ -24,6 +24,7 @@ header{
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: 50px;
 }
 header h1{
     font-size: 50px;
