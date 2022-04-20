@@ -17,7 +17,7 @@ body{
     padding: 1.9rem;
 }
 header{    
-    height: 20vh;
+    height: 15vh;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -26,35 +26,69 @@ header{
     text-align: center;
 }
 header h1{
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 2em;
+    font-size: 50px;
+    margin-bottom: 1.5em;
+    color: white;
+    text-shadow: 4px 2px black;
+}
+header span{
+    color: red;
 }
 .hq{    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
-    background: whitesmoke;
+    background: rgba(245, 245, 245, 0.267);
     margin-bottom: 1.7rem;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 .hq img{
     height: 400px;
-    width: 100%;
+    width: 650px;
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.hq p{
+    font-size: 1.4em;
+    font-weight: 600;
+    color:whitesmoke;
+    text-shadow: 2px 2px black;
 }
 .hqo{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2em;
-    background: whitesmoke;
+    background: rgba(245, 245, 245, 0.267);
     margin-bottom: 1.7rem;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 .hqo img{
-    height: 300px;
+    height: 400px;
+    width: 100%;
+    margin:auto;
+}
+.hqo p{
+    font-size: 1.4em;
+    font-weight: 600;
+    color:whitesmoke;
+    text-shadow: 2px 2px black;
 }
 .hq:nth-child(odd) img{
     order: 2;
-    margin:auto;
+    width: 90%;
 }
 .hq>div {
     padding: 2rem;
+}
+.hqo>div {
+    padding: 2rem;
+}
+footer{
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.295);
 }
