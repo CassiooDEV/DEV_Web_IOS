@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <title>Exemplo Bootstrap</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Bootstrap Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Outros
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Projeto</a></li>
+                            <li><a class="dropdown-item" href="#">Contato</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Qualquer coisa</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Desabilitado</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="p-5 bg-warning">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">Bem-vindo ao meu Website</h1>
+            <p class="col-md-8 fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                eligendi vitae atque nesciunt. Ducimus veritatis, praesentium quo delectus u
+                t numquam.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Aprenda Mais</a>
+        </div>
+    </header>
+    <!-- Tipografia -->
+    <section class="container text-center">
+        <h1 class="pb-2 mt-4 mb-2 border-bottom">Hello, world! <small>Secondary text</small></h1>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+            laborum? Placeat non est
+            facere
+            recusandae fugiat voluptatum</p>
+        <p><mark>Lorem ipsum dolor sit amet</mark> consectetur adipisicing elit. Obcaecati,
+            laborum? Placeat non est.
+            Delectus consequuntur <del>laudantium repellat dolorum labore</del> tenetur, <u>
+                voluptatem
+                necessitatibus</u> rerum eveniet. Esse deserunt ducimus atque iure consequat
+            ur at cum reiciendis nihil
+            soluta labore perferendis.</p>
+        <hr>
+    </section>
+    <!-- Alinhamento & Transformação-->
+    <section class="container">
+        <p class="text-start text-lowercase">Texto alinhado à esquerda da área de visualização.</p>
+        <p class="text-center text-uppercase">Texto alinhado centralizado na área de visualização.</p>
+        <p class="text-end">Texto alinhado à direta da área de visualização.</p>
+        <p class="text-nowrap">Texto sem quebra de linha. Lorem ipsum dolor sit amet consectetur, adipisicing e
+            lit.
+            Aliquid perspiciatis sed quia expedita? Id cupiditate dicta magni fugiat nulla v
+            oluptatibus ratione
+            accusantium!
+        </p>
+        <hr>
+    </section>
+    <section class="container">
+        <!-- Floats -->
+        <div class="float-start">Float no início da área de visualização</div><br>
+        <div class="float-end">Float no final da área de visualização</div><br>
+        <div class="float-none">Sem float na área de visualização</div>
+        <!-- Limpa o Float -->
+        <div class="clearfix"></div>
+        <hr>
+    </section>
+    <!-- Blockquuote -->
+    <section class="container">
+        <blockquote class="blockquote">
+            <p>A juventude é a época de se estudar a sabedoria; a velhice é a época de a pra
+                ticar.</p>
+            <figcaption class="blockquote-footer">
+                <cite title="Source Title">Jean-Jacques Rousseau</cite>
+            </figcaption>
+        </blockquote>
+        <hr>
+    </section>
+    <!-- Listas -->
+    <section class="container">
+        <ul class="list-unstyled">
+            <li>Item um</li>
+            <li>Item dois</li>
+            <li>Item três</li>
+            <li>Item quatro</li>
+        </ul>
+        <ul class="list-inline">
+            <li class="list-inline-item">Item um</li>
+            <li class="list-inline-item">Item dois</li>
+            <li class="list-inline-item">Item três</li>
+            <li class="list-inline-item">Item quatro</li>
+        </ul>
+        <ol>
+            <li>Item um</li>
+            <li>Item dois</li>
+            <li>Item três</li>
+            <li>Item quatro</li>
+        </ol>
+        <hr>
+    </section>
+    <!-- Código -->
+    <section class="container">
+        <code>&lt;h1&gt;Heading Text&lt;/h1&gt;</code>
+        <br><br>
+        Mude de diretório com o comando <kbd>cd</kbd>
+        <br><br>
+        Para acessar as configurações de edição, pressione <kbd><kbd>ctrl</kbd> + <kbd>,</kb d></kbd>
+            <hr>
+    </section>
+    <section class="container">
+        <!-- Cores textuais -->
+        <p class="text-primary">Olá Mundo com a cor do texto: text-primary</p>
+        <p class="text-success">Olá Mundo com a cor do texto: text-success</p>
+        <p class="text-info">Olá Mundo com a cor do texto: text-info</p>
+        <p class="text-warning">Olá Mundo com a cor do texto: text-warning</p>
+        <p class="text-danger">Olá Mundo com a cor do texto: text-danger</p>
+        <p class="text-muted">Olá Mundo com a cor do texto: text-muted</p>
+        <p class="text-black-50">Olá Mundo com a cor do texto: text-black-50</p>
+        <!-- Cores de plano de fundo -->
+        <p class="bg-primary">Olá Mundo com a cor de fundo: bg-primary</p>
+        <p class="bg-success">Olá Mundo com a cor de fundo: bg-success</p>
+        <p class="bg-info">Olá Mundo com a cor de fundo: bg-info</p>
+        <p class="bg-warning">Olá Mundo com a cor de fundo: bg-warning</p>
+        <p class="bg-danger">Olá Mundo com a cor de fundo: bg-danger</p>
+        <p class="bg-muted">Olá Mundo com a cor de fundo: bg-muted</p>
+        <!-- Combinação dos estilos -->
+        <p class="text-white bg-dark">Olá Mundo com a cor do texto: text-white, e a cor do fundo: bg-dark</p>
+        <p class="text-white-50 bg-success">Olá Mundo com a cor do texto: text-white-50, e a cor do fundo: bg-success
+        </p>
+        <hr>
+    </section>
+    <section class="container">
+        <!-- Botões -->
+        <button class="btn btn-outline-secondary">Botão Um</button>
+        <a href="#" class="btn btn-outline-secondary" role="button">Botão Dois</a>
+        <input type="submit" class="btn btn-outline-secondary" value="Enviar">
+        <br><br>
+        <!-- Botões Contextuais -->
+        <button class="btn btn-primary">Primary</button>
+        <button class="btn btn-secondary">Secondary</button>
+        <button class="btn btn-success">Success</button>
+        <button class="btn btn-info">Info</button>
+        <button class="btn btn-warning">Warning</button>
+        <button class="btn btn-danger">Danger</button>
+        <button class="btn btn-dark">Dark</button>
+        <button class="btn btn-light">Light</button>
+        <button class="btn btn-link">Link</button>
+        <br><br>
+        <!-- Tamanho de Botões -->
+        <button class="btn btn-outline-secondary btn-lg">Botão Um</button>
+        <button class="btn btn-primary btn-sm">Primary</button>
+        <button class="btn btn-secondary" disabled="disabled">Secondary</button>
+        <br><br>
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+        <button type="button" class="btn btn-outline-success">Success</button>
+        <button type="button" class="btn btn-outline-danger">Danger</button>
+        <button type="button" class="btn btn-outline-warning">Warning</button>
+        <button type="button" class="btn btn-outline-info">Info</button>
+        <button type="button" class="btn btn-outline-light">Light</button>
+        <button type="button" class="btn btn-outline-dark">Dark</button>
+        <hr>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
