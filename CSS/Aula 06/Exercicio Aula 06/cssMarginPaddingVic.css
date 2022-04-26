@@ -1,0 +1,63 @@
+@charset "UTF-8";
+body{
+    color: white;
+    background-image: url(Bala5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    font-size: 1.1em;
+}
+
+.jujuba{
+    background-color: rgba(55, 0, 255, 0.199);
+    margin: 15px;
+    padding: 10px;
+    border: 5px;
+    border-style: groove;
+    border-color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+h1{
+    background-image: url(Bala5.jpg);
+    border: 5px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    border-style: groove;
+}
+.home{
+    text-align: center;
+    margin: 5px;
+}
+nav{
+    margin: 30px;
+}
+a{
+    color: whitesmoke;
+    padding: 7px;
+    border: 5px;
+    border-style: groove;
+    border-color: white;
+    margin: 10px;
+    text-decoration: none;
+    line-height: 90%;
+}
+.li{
+    font-size: xx-large;
+}
+.final{ 
+    margin: 15px;
+    padding: 10px;
+    border: 5px;
+    border-style: groove;
+    border-color: white;
+    font-size: medium;
+    text-align: center;
+}
+footer{
+    margin-top: 200px;
+}
