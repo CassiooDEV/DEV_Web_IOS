@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <title>Bootstrap 2</title>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+        crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <nav class="fixed-top navbar navbar-expand-md navbar-dark bg-dark px-5">
+        <p class="navbar-brand m-0">Formulário Bootstrap</p>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <section id="menu" class="collapse navbar-collapse">
+             <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a href="#FAQ" class="nav-link">Perguntas</a></li>
+                <li class="nav-item"><a href="#instructors" class="nav-link">Professores</a></li>
+                <li class="nav-item"><a href="#location" class="nav-link">IOS</a></li>
+            </ul>
+        </section>
+    </nav>
+    <section id="home" class="bg-dark text-light text-center p-5 d-flex align-items-center" style="padding-top: 60px!important;">
+        <article style="margin-left: 750px;">
+            <h1>Formulário para <span class="text-warning">Desenvolvedor Web</span></h1>
+
+            <p class="fs-5">
+                Nesse formulário você terá que provar que é um bom Desenvolvedor, está pronto??
+            </p>
+
+            <button class="btn btn-lg btn-primary">
+                Começar a preencher
+            </button>
+        </article>
+    </section>
+    <section class="bg-primary text-light p-5 d-flex justify-content-between">
+        <h2>Antes de começar nos informe seu E-Mail</h2>
+
+        <article class="input-group" style="width: 50%;">
+            <input type="text" class="form-control" placeholder="Email Address">
+            <button class="btn btn-dark" type="button">Enviar</button>
+        </article>
+    </section>
+    <section class="container" style="margin-top: 50px;">
+        <div class="card" style="width: 18rem;">
+            <img src="Curso-de-programação.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Garanta a sua formação profissional</h5>
+                <p class="card-text">Lançamos uma edição especial dos seus cursos, que vão acontecer de forma
+                    onlin
+                    e,
+                    com
+                    encontros presenciais (mediante orientações de saúde de cada região) e,
+                    claro, totalmente gratuitos.</p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">100% Gratuito</li>
+                <li class="list-group-item">Melhores Professores</li>
+            </ul>
+            <br>
+            <a href="#" class="btn btn-dark">Saiba Mais</a>
+        </div>
+    </section>
+    <br>
+    <hr>
+    <section class="container">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Primeiro Nome</th>
+                    <th scope="col">Idade</th>
+                    <th scope="col">Função</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Rafael</th>
+                    <td>34</td>
+                    <td>Full-Stack DEV</td>
+                </tr>
+                <tr>
+                    <th scope="row">Heloisa</th>
+                    <td>23</td>
+                    <td>Full-Stack DEV</td>
+                </tr>
+                <tr>
+                    <th scope="row">Vanessa</th>
+                    <td>30</td>
+                    <td>Professora de Skills</td>
+                </tr>
+            </tbody>
+        </table>
+        </section>
+        <br>
+        <hr>
+    <section class="container" style="margin-top: 50px;">
+        <form action="#">
+            <label class="form-label">Nome Completo</label>
+            <input type="text" class="form-control" placeholder="Adicione o Nome">
+            <label class="form-label">Profissão Atual</label>
+            <input type="text" class="form-control form-control-sm" placeholder="Adicione o Nome">
+            <label>Formação</label>
+            <select name="" id="" class="form-control">
+                <option value="fundamental">Ensino fundamental</option>
+                <option value="medio">Ensino médio</option>
+                <option value="superior">Ensino superior</option>
+                <option value="superior">Outro</option>
+            </select>
+            <label for="exampleDataList" class="form-label">Informe seu estado</label>
+            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Digite um estado...">
+            <datalist id="datalistOptions">
+                <option value="Minas Gerais"></option>
+                <option value="São Paulo"></option>
+                <option value="Rio de Janeiro"></option>
+                <option value="Ceára"></option>
+                <option value="Rio Grande do sul"></option>
+                <option value="Outra"></option>
+            </datalist>
+            <label for="exampleColorInput" class="form-label">Cor preferida</label>
+            <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#021BFC"
+                title="Escolha a sua Cor">
+            <br>
+            <hr>
+            <label>Por que deveriamos te aceitar?</label>
+            <textarea class="form-control" placeholder="Digite aqui..."></textarea>
+            <br>
+            <hr>
+            <label class="form-label">Se possui algum certificado envie aqui.</label>
+            <input type="file">
+            <br>
+            <span class="form-text">
+                Apenas arquivo pdf.
+            </span>
+            <br>
+            <hr>
+            <button type="submit" class="btn-outline-secondary btn-lg">Enviar</button>
+            <br>
+            <hr>
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                Precisa de ajuda?
+            </a>
+        </form>
+    </section>
+    <section class="bg-dark text-light text-center p-2">
+        <p class="fs-4 m-0 position-relative">@2022 Copyright &copy;Cassio</p>
+    </section>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
