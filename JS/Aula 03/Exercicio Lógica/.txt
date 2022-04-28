@@ -6,8 +6,10 @@ V F V
 F V V
 3)O Gato esta no sotão e o rato esta no quarto.
 4)
-1º--> Raquel,11 anos,Suco de laranja,Gato,Maio branco,FPS X
+{
+1º--> Raquel,11 anos,Suco de laranja,Gato,Maio branco,X-FPS 45
 2º--> Vivian, X-10 anos,Limonada,passaro,Maio azul,FPS 55
-3º--> Ana,9 anos, Suco de maracujá,Cachorro, Maio X, FPS 50
-4º--> X-Maria Laveau ,8 anos, suco de morango,peixe,Maio verde, FPS X
-(OBS: X= Informações impossiveis de se conseguir.)
+3º--> X-Bruna,9 anos, Suco de maracujá,Cachorro, Maio X- Amarelo, FPS 40
+4º--> Ana ,8 anos, suco de morango,peixe,Maio verde, X-FPS 50
+(OBS: X= Informações que foram passadas depois.)
+}
