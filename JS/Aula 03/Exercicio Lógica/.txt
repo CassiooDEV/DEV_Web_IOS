@@ -25,7 +25,7 @@ let percreajuste= 13%
   escrever("percreajuste")
   ler(percreajuste)  
   novosalario = (salarioatual*percreajuste/100)
-  escrever("O novo salario do funcionário é:" novosalario+salarioatual+.)
+  escrever("O novo salario do funcionário é:" novosalario+salarioatual.)
 
 2)
 (8+9+7+6)/4= 7,5
