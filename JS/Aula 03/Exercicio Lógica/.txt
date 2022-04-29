@@ -13,3 +13,56 @@ F V V
 4º--> Ana ,8 anos, suco de morango,peixe,Maio verde, X-FPS 50
 (OBS: X= Informações que foram passadas depois.)
 }
+
+------------------------------------------------------------------------------------------
+Exercicio de Casa
+1)
+função inicio()
+let salarioatual= X
+let percreajuste= 13%
+  escrever("salarioatual")
+  ler(salarioatual)
+  escrever("percreajuste")
+  ler(percreajuste)  
+  novosalario = (salarioatual*percreajuste/100)
+  escrever("O novo salario do funcionário é:" novosalario+salarioatual+.)
+
+2)
+(8+9+7+6)/4= 7,5
+A mediana está acima da média escolar.
+
+3)
+função inicio()
+let x='ovos'
+let y='chocolate em pó'
+let z= 'manteiga'
+let xx= 'fermento'
+let yy= 'açucar'
+let zz= 'leite'
+let l = 'liquidificador'
+let f = 'forma'
+let ff = 'forno'
+let ll = 'luva de segurança'
+let andar= "15 passos até o armário"
+let abrir= "dar um passo pra trás e abrir o armário"
+let pegar= "pegar 'l', 'f' e depositar na mesa que está a 45º da entidade"
+let voltar="vire 45º novamente e retorne ao armário"
+let pegar2= "pegar os ingredientes: 'x', 'y' ,'z', 'xx' , 'yy' , 'zz'"
+let deposito = "deposite 'x','y','z','yy','zz' no 'l'"
+let ligar= "ligue o 'l' na tomada"
+let bater= "bata 'ingredientes' 5 min 'l''"
+let add = "adicione 'xx' ao 'l'"
+let despejo = "despejar conteúdo de 'l' na 'f' que está 10 cm á esquerda"
+let forno = "vire 90º sentido horário ande 5 passos e abra 'ff'"
+let forma = "vire 90º sentido anti horário, ande 5 passos e pegue 'f'"
+let deposito2="vire 90º sentido horário ande 5 passos e deposite 'f' em 'ff'"
+let fechar= "feche 'ff'"
+let fim1= "após 40 minutos abra 'ff' e pegue 'f' com 'll'"
+let fim2= "vire 90º sentido anti horário e deposite 'f' na mesa"
+console.log(andar, abrir, pegar, voltar, pegar2, deposito, ligar, bater, add, despejo, forno, forma, deposito2, fechar, fim1, fim2)
+
+
+
+
+
+
