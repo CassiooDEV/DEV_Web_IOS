@@ -17,7 +17,7 @@ F V V
 ------------------------------------------------------------------------------------------
 Exercicio de Casa
 1)
-função inicio()
+function inicio()
 let salarioatual= X
 let percreajuste= 13%
   escrever("salarioatual")
@@ -32,7 +32,7 @@ let percreajuste= 13%
 A mediana está acima da média escolar.
 
 3)
-função inicio()
+function inicio()
 let x='ovos'
 let y='chocolate em pó'
 let z= 'manteiga'
