@@ -27,9 +27,7 @@ let percreajuste= 13%
   novosalario = (salarioatual*percreajuste/100)
   escrever("O novo salario do funcionário é:" novosalario+salarioatual.)
 
-2)
-(8+9+7+6)/4= 7,5
-A mediana está acima da média escolar.
+2) está no arquivo "js ex 2"
 
 3)
 function inicio()
