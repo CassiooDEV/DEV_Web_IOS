@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.wrapper>div {
+    background: #eee;
+    padding: 1em;
+}
+
+.nested {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 70px;
+    grid-gap: 1em;
+}
+
+.nested>div {
+    background: green;
+    color: #fff;
+}
