@@ -16,17 +16,7 @@ F V V
 
 ------------------------------------------------------------------------------------------
 Exercicio de Casa
-1)
-function inicio()
-let salarioatual= X
-let percreajuste= 13%
-  escrever("salarioatual")
-  ler(salarioatual)
-  escrever("percreajuste")
-  ler(percreajuste)  
-  novosalario = (salarioatual*percreajuste/100)
-  escrever("O novo salario do funcionário é:" novosalario+salarioatual.)
-
+1) está no arquivo "salario.js"
 2) está no arquivo "js ex 2"
 
 3)
