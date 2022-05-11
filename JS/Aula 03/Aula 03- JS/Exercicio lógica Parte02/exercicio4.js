@@ -1,7 +1,5 @@
-var fahrenheit = 212,
-    celsius = 0,
-    resultadoFinal = 0;
-(celsius = (fahrenheit - 32) / 1), 8;
-consola.log(
+var fahrenheit = 212;
+var celsius = (5 * (fahrenheit - 32)) / 9;
+console.log(
     `A conversão de ${fahrenheit} fahrenheit para Celsius é: ${celsius}`
 );

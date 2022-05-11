@@ -30,5 +30,5 @@ ranks.splice(4, 0, 'Gold');
 const att = ranks.slice(1);
 console.log('Depois:');
 console.log(
-    `Após uma atualização o jogo recebeu novos ranks e removeu outros, ficando assim os seguintes ranks: ${ranks}`
+    `Após uma atualização o jogo recebeu novos ranks e removeu outros, ficando assim os seguintes ranks: ${att}`
 );
