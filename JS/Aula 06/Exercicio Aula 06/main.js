@@ -28,8 +28,8 @@ const alunos = [
         Formação: 'Ensino Médio Completo',
         Endereço: {
             Cidade: 'São Paulo',
-            Bairro: 'São Paulo',
-            Rua: 'São Paulo',
+            Bairro: 'Parque Peruchi',
+            Rua: 'Luis Gonzaga',
         },
         NotasD: [7, 8, 9, 8],
         Notas: {
