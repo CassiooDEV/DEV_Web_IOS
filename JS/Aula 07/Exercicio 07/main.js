@@ -42,7 +42,7 @@ if (team[0].Vínculo === 'CLT') {
     );
 }
 if (team[1].Vínculo === 'CLT') {
-    const alq2 = team[0].Sálario;
+    const alq2 = team[1].Sálario;
     if (alq2 > 7087)
         console.log(
             `O funcionário ${team[1].Nome} é CLT e contribui ${
