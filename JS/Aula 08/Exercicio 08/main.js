@@ -1,6 +1,6 @@
 const i = () => {
     let c = 0;
-    let tab = 23;
+    let tab = 1207;
     let i2 = 0;
     console.log('MÉTODO WHILE');
     while (c <= 10) {
