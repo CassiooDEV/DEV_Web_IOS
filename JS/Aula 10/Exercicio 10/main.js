@@ -40,7 +40,7 @@ Pessoa.prototype.getNiver = function (date) {
         ++um;
     return um == 0;
 };
-console.log(pessoas[8].getNiver(dob));
+console.log(pessoas[0].getNiver(dob));
 for (i = 0; i < pessoas.length; i++) {
     if (pessoas[i].getNiver(dob) === false)
         console.log(

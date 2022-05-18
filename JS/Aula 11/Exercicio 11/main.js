@@ -1,0 +1,18 @@
+window.alert('Olá Professores, dá 10 ai vai?');
+document.title = 'Exercicio 11 JS';
+let section = document.createElement('section');
+document.body.appendChild(section);
+let article = document.createElement('article');
+document.body.appendChild(article);
+let h1a = document.createElement('h1');
+h1a.innerHTML = 'Article';
+let pa = document.createElement('p');
+pa.innerHTML = 'Esse é o article';
+article.appendChild(h1a);
+article.appendChild(pa);
+let h1s = document.createElement('h1');
+h1s.innerHTML = 'Section';
+let ps = document.createElement('p');
+ps.innerHTML = 'Esse é a section';
+section.appendChild(h1s);
+section.appendChild(ps);
