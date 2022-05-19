@@ -30,10 +30,16 @@ if (team[0].Vínculo === 'CLT') {
                 (alq1 * 12) / 100
             }R$ segundo a tabela de 2022.`
         );
-    else
+    else if ((alq1) => 1212 && alq1 <= 2427)
         console.log(
             `O funcionário ${team[0].Nome} é CLT e contribui ${
                 (alq1 * 9) / 100
+            }R$ segundo a tabela de 2022.`
+        );
+    else
+        console.log(
+            `O funcionário ${team[0].Nome} é CLT e contribui ${
+                (alq1 * 7, 5) / 100
             }R$ segundo a tabela de 2022.`
         );
 } else {
@@ -55,10 +61,16 @@ if (team[1].Vínculo === 'CLT') {
                 (alq2 * 12) / 100
             }R$ segundo a tabela de 2022.`
         );
-    else
+    else if ((alq2) => 1212 && alq2 <= 2427)
         console.log(
             `O funcionário ${team[1].Nome} é CLT e contribui ${
                 (alq2 * 9) / 100
+            }R$ segundo a tabela de 2022.`
+        );
+    else
+        console.log(
+            `O funcionário ${team[1].Nome} é CLT e contribui ${
+                (alq2 * 7, 5) / 100
             }R$ segundo a tabela de 2022.`
         );
 } else {
@@ -80,10 +92,16 @@ if (team[2].Vínculo === 'CLT') {
                 (alq3 * 12) / 100
             }R$ segundo a tabela de 2022.`
         );
-    else
+    else if ((alq3) => 1212 && alq3 <= 2427)
         console.log(
             `O funcionário ${team[2].Nome} é CLT e contribui ${
                 (alq3 * 9) / 100
+            }R$ segundo a tabela de 2022.`
+        );
+    else
+        console.log(
+            `O funcionário ${team[2].Nome} é CLT e contribui ${
+                (alq3 * 7, 5) / 100
             }R$ segundo a tabela de 2022.`
         );
 } else {
