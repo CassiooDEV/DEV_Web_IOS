@@ -13,6 +13,6 @@ article.appendChild(pa);
 let h1s = document.createElement('h1');
 h1s.innerHTML = 'Section';
 let ps = document.createElement('p');
-ps.innerHTML = 'Esse é a section';
+ps.innerHTML = 'Essa é a section';
 section.appendChild(h1s);
 section.appendChild(ps);
