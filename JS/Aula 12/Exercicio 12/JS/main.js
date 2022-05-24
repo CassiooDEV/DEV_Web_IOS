@@ -11,29 +11,33 @@ for (i = 0; i < b12.length; i++) {
 
 const serie = () => {
     document.body.style.backgroundColor = '#262525';
-    let figure = document.createElement('figure');
-    document.body.appendChild('figure');
-    let pic = document.createElement('img');
-    pic.src = 'Pics/picture.jpg';
-    figure.appendChild('pic');
+    let img = document.createElement('img');
+    img.src = './img/picture.jpg';
+    document.body.insertBefore(img, b1.nextElementSibling);
 };
 b1.addEventListener('click', serie);
 const form = () => {
-    let getInfo = prompt('Preencha seu nome pra ser da nossa academia');
-    if (getInfo == 0 || getInfo == 'null') alert('Oops preencha novamente');
+    let getInfo = window.prompt('Preencha seu nome pra ser da nossa academia');
+    let text = document.createElement('p');
+    if (getInfo > 0 || getInfo == 'null' || getInfo < 0)
+        alert('Oops preencha novamente');
     else {
-        document.body.innerHTML = `Olá ${getInfo} Bem-vindo a nossa academia.`;
+        text.innerHTML = `Olá ${getInfo} Bem-vindo a nossa academia.`;
+        document.body.appendChild(text);
     }
 };
 b2.addEventListener('click', form);
 
 const calc = () => {
-    let tab = document.getElementById('tab');
     let getNumber = parseInt(prompt('Insira um valor'));
-    for (i = 0; i <= 10; i++) {
-        let tool = document.createElement('p');
-        tool.innerText = `${getNumber} x ${i} = ${getNumber * i}`;
-        tab.appendChild('tool');
+    if (isNaN(getNumber)) {
+        alert('Insira um valor númerico');
+    } else {
+        for (i = 0; i <= 10; i++) {
+            let tool = document.createElement('p');
+            tool.innerHTML = `${i} x ${getNumber} = ${i * getNumber}`;
+            document.body.insertBefore(tool, b3.nextElementSibling);
+        }
     }
 };
 b3.addEventListener('click', calc);
