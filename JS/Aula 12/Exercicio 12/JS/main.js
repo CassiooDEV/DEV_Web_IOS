@@ -17,9 +17,9 @@ const serie = () => {
 };
 b1.addEventListener('click', serie);
 const form = () => {
-    let getInfo = window.prompt('Preencha seu nome pra ser da nossa academia');
+    let getInfo = prompt('Preencha seu nome pra ser da nossa academia');
     let text = document.createElement('p');
-    if (getInfo > 0 || getInfo == 'null' || getInfo < 0)
+    if (getInfo > 0 || getInfo == null || getInfo < 0)
         alert('Oops preencha novamente');
     else {
         text.innerHTML = `Olá ${getInfo} Bem-vindo a nossa academia.`;
