@@ -39,6 +39,13 @@ header {
     border-radius: 5px;
     border: 1px solid #ccc;
 }
+#form input[type='date'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
 
 #incluir {
     display: block;
@@ -74,4 +81,9 @@ header {
     font-size: 0.8rem;
     background: #fff;
     color: red;
+}
+#users{
+    background-color: white;
+    padding: 1.5em;
+    list-style: none;
 }
