@@ -1,6 +1,22 @@
 .qntd{
-    margin-left: 85%;
+    margin-left: 40%;
 }
 .valor{
     margin-left: 20%;
+}
+#valor{
+    margin-left: 40%;
+}
+#qntd{
+    margin-left: 30%;
+}
+.btns{
+    margin: 5px;
+}
+.item2{
+    margin-left: 40%;
+}
+#items{
+    font-size: larger;
+    font-weight: bold;
 }
