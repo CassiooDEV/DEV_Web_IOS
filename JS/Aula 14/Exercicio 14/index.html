@@ -14,25 +14,32 @@
         <h1>Compra de Ingresso</h1>
     </header>
     <main class="container">
-            <form id="form">
-                <div class="msg"></div>
-                <div>
-                    <label for="name">Nome</label>
-                    <input type="text" id="name" required>
-                </div><br>
-                <div><label for="email">E-mail</label>
-                    <input type="text" id="email" required>
-                </div>
-                <div class="msg_email"></div>
-                <br>
-                <div>
-                    <label for="date">Data de Nascimento</label>
-                    <input type="date" id="date" required>
-                </div><br>
-                <input type="submit" id="incluir" value="Enviar">
-            </form>
-            <ul id="users"></ul>
-            <button id="excluir">Excluir Cadastro</button>
+        <form id="form">
+            <div class="msg"></div>
+            <div>
+                <label for="name">Nome</label>
+                <input type="text" id="name" required>
+            </div><br>
+            <div><label for="email">E-mail</label>
+                <input type="text" id="email" required>
+            </div>
+            <div class="msg_email"></div>
+            <br>
+            <div>
+                <label for="date">Data de Nascimento</label>
+                <input type="date" id="date" required>
+            </div><br>
+            <label for="modo">Escolha o tipo:</label>
+            <select name="" id="modo">
+                <option value="Básico">Básico</option>
+                <option value="VIP">VIP</option>
+                <option value="Camarote">Camarote</option>
+                <option value="Rei da festa">Rei da festa</option>
+            </select>
+            <input type="submit" id="incluir" value="Enviar">
+        </form>
+        <ul id="users"></ul>
+        <button id="excluir">Excluir Cadastro</button>
     </main>
     <script src="JS/main.js"></script>
 </body>
