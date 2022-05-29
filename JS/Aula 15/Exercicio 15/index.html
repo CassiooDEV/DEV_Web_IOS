@@ -23,18 +23,18 @@
         </div>
     </header>
     <div class="container">
-        <div id="main" class="card card-body card1">
+        <div id="main" class="card card-body">
             <h2 class="title">Item:<span id="valor">Valor:</span><span id="qntd">Qntd.</span></h2>
             <form id="addForm" class="form-control mb-3">
                 <div class="row">
                     <div class="col-4">
-                        <input type="text" class="form-control mr-2 " id="item1" required />
+                        <input type="text" class="form-control mr-2 " id="item1" placeholder="Insira o nome do item" required />
                     </div>
                     <div class="col-4">
-                        <input type="number" class="form-control mr-2" id="item2" />
+                        <input type="text" class="form-control mr-2" id="item2" placeholder="Insira um valor para o item" required/>
                     </div>
                     <div class="col-4">
-                        <input type="number" class="form-control mr-2" id="item3" />
+                        <input type="number" class="form-control mr-2" id="item3" placeholder="Insira a quantidade" required/>
                     </div>
                     <div class="col-2">
                         <input type="submit" class="btn btn-dark float-end" value="Adicionar item"
@@ -42,11 +42,10 @@
                     </div>
                 </div>
             </form>
-            <h2 class="title" style="margin-left: 10px;">Carrinho</h2>
             <ul id="items" class="list-group"></ul>
-            </form>
         </div>
         <div id="main" class="card card-body">
+            <h2 class="title" style="margin-left: 10px;">Carrinho</h2>
             <form id="addForm" class="form-control mb-3 carrinho">
                 <ul id="compra" class="list-group">
                 </ul>
