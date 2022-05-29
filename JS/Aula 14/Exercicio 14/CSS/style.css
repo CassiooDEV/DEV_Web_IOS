@@ -83,6 +83,7 @@ header {
     font-size: 0.8rem;
     background: #fff;
     color: red;
+    font-weight: 600;
 }
 
 #users {

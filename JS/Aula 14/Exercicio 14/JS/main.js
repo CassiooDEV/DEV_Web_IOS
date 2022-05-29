@@ -37,7 +37,8 @@ function verifEmail() {
     );
     if (!def.test(email.value)) {
         let error = document.createElement('p');
-        error.innerHTML = 'Insira um e-mail válido.Ex: Nome@dominio.com';
+        error.className = 'error';
+        error.innerHTML = 'Insira um e-mail válido.';
         form.appendChild(error);
         setTimeout(() => (msg_email.innerHTML = ''), 3000);
     } else {
