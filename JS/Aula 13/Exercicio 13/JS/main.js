@@ -7,6 +7,9 @@ let figure = document.createElement('figure');
 let tabuada = document.createElement('div');
 let welcome = document.createElement('div');
 let img = document.createElement('img');
+let h2 = document.createElement('h2');
+let text = document.createElement('p');
+let h2o = document.createElement('h2');
 document.body.appendChild(welcome);
 document.body.appendChild(tabuada);
 document.body.appendChild(figure);
@@ -29,8 +32,6 @@ const serie = () => {
 b1.addEventListener('click', serie);
 const form = () => {
     let getInfo = prompt('Preencha seu nome pra ser da nossa academia');
-    let h2 = document.createElement('h2');
-    let text = document.createElement('p');
     if (getInfo > 0 || getInfo == null || getInfo < 0)
         alert('Oops preencha novamente');
     else {
@@ -48,7 +49,6 @@ const calc = () => {
     if (isNaN(getNumber) || getNumber == 0) {
         alert('Insira um valor númerico e maior que 0 ');
     } else {
-        let h2 = document.createElement('h2');
         h2.innerHTML = 'Tabuada:';
         tabuada.appendChild(h2);
         for (i = 0; i <= 10; i++) {
@@ -61,9 +61,10 @@ const calc = () => {
 };
 b3.addEventListener('click', calc);
 const apagar = () => {
-    figure.remove();
+    img.remove();
     document.body.style.backgroundColor = 'white';
-    welcome.remove();
+    h2.remove();
+    text.remove();
     tabuada.remove();
 };
 b4.addEventListener('click', apagar);

@@ -14,6 +14,7 @@ function addItem(e) {
     let newItemvalue = document.getElementById('item2').value;
     let newItemqntd = document.getElementById('item3').value;
     let valor = newItemvalue * newItemqntd;
+    let trash = -valor;
     total(valor);
     if (newItemvalue >= 1 && 100 > newItemqntd >= 1) {
         let li = document.createElement('li');
@@ -47,21 +48,21 @@ function addItem(e) {
         );
         carrinho.appendChild(li2);
         deleteBtn.addEventListener('click', excluir);
-        //OBS: Função excluir não apaga o valor total
         function excluir() {
             li.remove();
             li2.remove();
+            total(trash);
         }
-        addBtn.addEventListener('click', add);
-        function add() {
+        addBtn.addEventListener('click', increase);
+        function increase() {
             if (newItemqntd <= 100) {
                 let inc = newItemqntd++;
                 let newValueplus = newItemvalue * inc;
-                let newValve = +newItemvalue;
-                li2.innerHTML = `${inc + 1}x ${newItemText} Valor: R$${
-                    newValueplus + newValve
-                },00`;
                 let newValue = +newItemvalue;
+                li2.innerHTML = `${inc + 1}x ${newItemText} Valor: R$${
+                    newValueplus + newValue
+                },00`;
+                trash = -newValueplus - newItemvalue;
                 total(newValue);
             }
         }
@@ -74,6 +75,7 @@ function addItem(e) {
                     dec - 1
                 }x ${newItemText} Valor: R$${(newValue -= newItemvalue)},00`;
                 let novoValor = -newItemvalue;
+                trash = -newValue;
                 total(novoValor);
             }
         }
