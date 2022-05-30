@@ -1,15 +1,20 @@
-let form = document.getElementById('addForm');
-let itemList = document.getElementById('items');
-let decrease = document.getElementsByClassName('decrease');
-let lista = document.getElementById('items');
-let carrinho = document.getElementById('compra');
-let div = document.getElementById('total');
+const form = document.getElementById('addForm');
+const itemList = document.getElementById('items');
+const decrease = document.getElementsByClassName('decrease');
+const lista = document.getElementById('items');
+const carrinho = document.getElementById('compra');
+const div1 = document.getElementsByClassName('total');
+const end = document.getElementById('fim');
+const prices = [];
+let finaltotal = document.getElementById('valor-total');
 form.addEventListener('submit', addItem);
 function addItem(e) {
     e.preventDefault();
     let newItemText = document.getElementById('item1').value;
     let newItemvalue = document.getElementById('item2').value;
     let newItemqntd = document.getElementById('item3').value;
+    let valor = newItemvalue * newItemqntd;
+    total(valor);
     if (newItemvalue > 0 && 100 > newItemqntd > 0) {
         let li = document.createElement('li');
         li.className = 'list-group-item';
@@ -45,29 +50,31 @@ function addItem(e) {
         function excluir() {
             li.remove();
             li2.remove();
-            deleteBtn.remove();
         }
         addBtn.addEventListener('click', add);
         function add() {
+            let inc = newItemqntd++;
+            let newValueplus = newItemvalue * inc;
+            let newValve = +newItemvalue;
             if (newItemqntd <= 100) {
-                let add = newItemqntd++;
-                li2.innerHTML = `${add}x ${newItemText} Valor: R$${
-                    newItemvalue * add
+                li2.innerHTML = `${inc + 1}x ${newItemText} Valor: R$${
+                    newValueplus + newValve
                 },00`;
+                let newValue = +newItemvalue;
+                total(newValue);
             }
         }
         decreaseBtn.addEventListener('click', decrease);
         function decrease() {
+            let dec = newItemqntd--;
+            let newValue = newItemvalue * dec;
             if (newItemqntd >= 1) {
-                let dec = newItemqntd--;
-                li2.innerHTML = `${dec}x ${newItemText} Valor: R$${
-                    newItemvalue * dec
-                },00`;
+                li2.innerHTML = `${
+                    dec - 1
+                }x ${newItemText} Valor: R$${(newValue -= newItemvalue)},00`;
+                let novoValor = -newItemvalue;
+                total(novoValor);
             }
-            // let total = document.getElementById('valor-total');
-            // for (i = 0; i < carrinho.lenght; i++) {
-            //     total.innerHTML = `R$${newItemvalue[i] * newItemqntd[i]},00`;
-            // }
         }
     } else if (newItemqntd > 100) {
         alert('Quantidade deve ser menor que 100');
@@ -77,4 +84,17 @@ function addItem(e) {
         alert('Insira um valor númerico');
     }
     form.reset();
+}
+function total(i) {
+    let itemprice = parseInt(i);
+    prices.push(itemprice);
+    let total = 0;
+    if (prices.length <= 1) {
+        total = itemprice;
+    } else {
+        for (let i = 0; i < prices.length; i++) {
+            total += prices[i];
+        }
+    }
+    finaltotal.innerHTML = `R$${total},00`;
 }
