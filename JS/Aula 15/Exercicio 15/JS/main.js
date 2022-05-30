@@ -47,6 +47,7 @@ function addItem(e) {
         );
         carrinho.appendChild(li2);
         deleteBtn.addEventListener('click', excluir);
+        //OBS: Função excluir não apaga o valor total
         function excluir() {
             li.remove();
             li2.remove();
