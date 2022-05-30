@@ -12,7 +12,7 @@
     <title>DOM - Lista de Itens</title>
 </head>
 
-<body>
+<body class="bg-dark">
     <header id="main-header" class="bg-dark text-white p-4 mb-3">
         <div class="container">
             <div class="row">
@@ -28,13 +28,16 @@
             <form id="addForm" class="form-control mb-3">
                 <div class="row">
                     <div class="col-4">
-                        <input type="text" class="form-control mr-2 " id="item1" placeholder="Insira o nome do item" required />
+                        <input type="text" class="form-control mr-2 " id="item1" placeholder="Insira o nome do item"
+                            required />
                     </div>
                     <div class="col-4">
-                        <input type="number" class="form-control mr-2" id="item2" placeholder="Insira um valor para o item" required/>
+                        <input type="number" class="form-control mr-2" id="item2"
+                            placeholder="Insira um valor para o item" required />
                     </div>
                     <div class="col-4">
-                        <input type="number" class="form-control mr-2" id="item3" placeholder="Insira a quantidade" required/>
+                        <input type="number" class="form-control mr-2" id="item3" placeholder="Insira a quantidade"
+                            required />
                     </div>
                     <div class="col-2">
                         <input type="submit" class="btn btn-dark float-end" value="Adicionar item"
@@ -53,8 +56,9 @@
                     <h2>Total</h2>
                     <p id="valor-total">R$0,00</p>
                 </div>
+                <button id="fim" class="btn btn-dark float-end" style="margin: 20px;">Finalizar compra</button>
             </form>
-            <button id="fim" class="btn btn-dark float-end" style="margin: 20px;">Finalizar compra</button>
+
         </div>
     </div>
     <script src="js/main.js"></script>
