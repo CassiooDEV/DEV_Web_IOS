@@ -15,7 +15,7 @@ function addItem(e) {
     let newItemqntd = document.getElementById('item3').value;
     let valor = newItemvalue * newItemqntd;
     total(valor);
-    if (newItemvalue > 0 && 100 > newItemqntd > 0) {
+    if (newItemvalue >= 1 && 100 > newItemqntd >= 1) {
         let li = document.createElement('li');
         li.className = 'list-group-item';
         let text = document.createTextNode(
@@ -54,10 +54,10 @@ function addItem(e) {
         }
         addBtn.addEventListener('click', add);
         function add() {
-            let inc = newItemqntd++;
-            let newValueplus = newItemvalue * inc;
-            let newValve = +newItemvalue;
             if (newItemqntd <= 100) {
+                let inc = newItemqntd++;
+                let newValueplus = newItemvalue * inc;
+                let newValve = +newItemvalue;
                 li2.innerHTML = `${inc + 1}x ${newItemText} Valor: R$${
                     newValueplus + newValve
                 },00`;
@@ -67,9 +67,9 @@ function addItem(e) {
         }
         decreaseBtn.addEventListener('click', decrease);
         function decrease() {
-            let dec = newItemqntd--;
-            let newValue = newItemvalue * dec;
             if (newItemqntd >= 1) {
+                let dec = newItemqntd--;
+                let newValue = newItemvalue * dec;
                 li2.innerHTML = `${
                     dec - 1
                 }x ${newItemText} Valor: R$${(newValue -= newItemvalue)},00`;
