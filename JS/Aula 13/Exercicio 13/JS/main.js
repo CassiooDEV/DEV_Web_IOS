@@ -65,6 +65,6 @@ const apagar = () => {
     document.body.style.backgroundColor = 'white';
     h2.remove();
     text.remove();
-    tabuada.remove();
+    tabuada.innerHTML = '';
 };
 b4.addEventListener('click', apagar);
