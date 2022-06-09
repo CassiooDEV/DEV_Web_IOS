@@ -9,6 +9,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: black;
 }
 
 .container {
@@ -16,9 +17,11 @@ body {
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid steelblue;
+  border: 2px solid blue;
   padding: 30px;
   border-radius: 5px;
+  background-color: black;
+  color: white;
 }
 
 .header {
@@ -30,7 +33,7 @@ body {
 
 .btn {
   display: inline-block;
-  background: #000;
+  background: blue;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -39,7 +42,8 @@ body {
   cursor: pointer;
   text-decoration: none;
   font-size: 15px;
-  font-family: inherit;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Courier, monospace;
 }
 
 .btn:focus {
@@ -56,14 +60,14 @@ body {
 }
 
 .task {
-  background: #f4f4f4;
+  background: rgb(56, 56, 56);
   margin: 5px;
   padding: 10px 20px;
-  cursor: pointer;
+  cursor: pointeer;
 }
 
 .task.reminder {
-  border-left: 5px solid green;
+  border-left: 5px solid rgb(0, 245, 233);
 }
 
 .task h3 {

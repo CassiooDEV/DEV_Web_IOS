@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
 import Button from './Button';
+import Tasks from './Tasks';
 const Header = ({ title }) => {
     const onClick = () => { 
-        alert('Clicou'); 
+       alert('clicou')
         };
     return (
         <header className='header'>
