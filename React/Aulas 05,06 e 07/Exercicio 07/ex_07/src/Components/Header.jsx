@@ -4,8 +4,7 @@ import TasksOpen from './TasksOpen';
 
 const Header = ({ title }) => {
     const onClick = () => { 
-       let newTask = prompt('Insira o compromisso')
-        };
+       let newTask = prompt('Insira o compromisso')   };
     return (
         <header className='header'>
             <h1>{title}</h1>

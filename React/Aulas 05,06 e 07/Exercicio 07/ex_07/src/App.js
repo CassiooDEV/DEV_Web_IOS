@@ -49,7 +49,7 @@ function App() {
                 <TasksOpen
                     tasks={tasks}
                     onDelete={deletaTarefa}
-                    onToggle={mudarReminder}
+                    offToggle={mudarReminder}
                 />
             ) : (
                 'Não há tarefas em aberto'

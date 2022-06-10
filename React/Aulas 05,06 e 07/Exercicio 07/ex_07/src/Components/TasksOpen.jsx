@@ -1,6 +1,6 @@
 import TaskItem from './TaskItem';
 
-const TasksOpen = ({ tasks, onDelete, onToggle }) => {
+const TasksOpen = ({ tasks, onDelete, offToggle }) => {
     return (
         <>
             {tasks.map((task) => (
@@ -8,7 +8,7 @@ const TasksOpen = ({ tasks, onDelete, onToggle }) => {
                     key={task.id}
                     task={task}
                     onDelete={onDelete}
-                    onToggle={onToggle}
+                    offToggle={offToggle}
                 />
             ))}
         </>
