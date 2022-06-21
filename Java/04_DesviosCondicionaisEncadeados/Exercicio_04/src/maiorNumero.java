@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MaiorNumero {
+public class maiorNumero {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int num1, num2,num3;

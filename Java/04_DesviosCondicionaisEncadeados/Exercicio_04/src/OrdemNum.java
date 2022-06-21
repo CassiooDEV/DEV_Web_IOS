@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class OrdemNum {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int num1, num2;
+        float num1, num2;
         System.out.println("Digite o primeiro numero:");
-        num1 = input.nextInt();
+        num1 = input.nextFloat();
         System.out.println("Digite o segundo numero:");
-        num2 = input.nextInt();
+        num2 = input.nextFloat();
 
         if (num1 == num2) {
             System.out.println("Os numeros sao iguais");
