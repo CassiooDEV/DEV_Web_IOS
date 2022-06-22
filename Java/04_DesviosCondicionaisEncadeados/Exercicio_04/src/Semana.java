@@ -4,7 +4,7 @@ public class Semana {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int day;
-        System.out.println("Digite um numero de 1 a 7:");
+        System.out.println("Digite um número de 1 a 7:");
         day = input.nextInt();
         switch (day) {
             case 1:
@@ -14,7 +14,7 @@ public class Semana {
                 System.out.println("Segunda");
                 break;
             case 3:
-                System.out.println("Terca");
+                System.out.println("Terça");
                 break;
             case 4:
                 System.out.println("Quarta");
@@ -29,7 +29,7 @@ public class Semana {
                 System.out.println("Sabado");
                 break;
             default:
-                System.out.println("Digite um numero de 1 a 7");
+                System.out.println("Digite um número de 1 a 7");
                 break;
         }
         input.close();
