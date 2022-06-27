@@ -12,7 +12,8 @@ public class Banco {
             System.out.println(" 1 - Conta Corrente ");
             System.out.println(" 2 - Conta Poupança ");
             System.out.println(" 3 - Conta Estudante ");
-            System.out.println("======= Escolha um tipo de conta ========");
+            System.out.println("======= Digite o número correpondente á conta que deseja ========");
+            System.out.print("-->");
             int menu = input.nextInt();
 
             switch (menu) {
