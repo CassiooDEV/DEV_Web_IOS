@@ -37,6 +37,11 @@ public class Banco {
             }
             System.out.println("Deseja refazer a operação? (S/N)");
             resp = input.next().charAt(0);
+            if(resp == 'n'||resp == 'N'){
+                System.out.println("========= SETBank ==========");
+                System.out.println(" Obrigado por usar a SETBank ");
+                System.out.println("============================");
+            }
         }
         input.close();
 
