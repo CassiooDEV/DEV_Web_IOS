@@ -3,32 +3,7 @@ import TasksOpen from './Components/TasksOpen';
 import { useState } from 'react';
 
 function App() {
-    const [tasks, setTasks] = useState([
-        {
-            id: 1,
-            text: 'Academia',
-            day: 'Todos os dias as 14:00',
-            reminder: true,
-        },
-        {
-            id: 2,
-            text: 'Curso Programação WEB',
-            day: 'Todos os dias as 18:00',
-            reminder: true,
-        },
-        {
-            id: 3,
-            text: 'Compra do mês',
-            day: '11 de Jun as 8:30',
-            reminder: false,
-        },
-        {
-            id: 4,
-            text: 'TCC IOS',
-            day: '19 de Jul as 18:00',
-            reminder: false,
-        },
-    ]);
+    const [tasks, setTasks] = useState([]);
 
     const deletaTarefa = (id) => {
         setTasks(tasks.filter((task) => task.id !== id));
