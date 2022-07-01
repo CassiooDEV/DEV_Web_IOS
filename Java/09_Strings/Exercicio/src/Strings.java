@@ -11,22 +11,22 @@ public class Strings {
             System.out.println("Digite uma fruta:");
             fruits[i] = input.nextLine();
             fruits[i] = fruits[i].toUpperCase().trim();
-            var compare = fruits[i].compareTo(fruits[0]);
+            var compare = fruits[i].compareTo(fruits[1]);
             var empty = fruits[i].isEmpty();
             var tamanho = fruits[i].length();
             if (empty == true) {
-                System.out.println("Como assim vocÃª nÃ£o preencheu nada?");
-            } else if (compare == 0) {
-                System.out.println("VocÃª colocou duas frutas iguais?!");
+                System.out.println("Como assim você não preencheu nada?");
             } else if (tamanho < 3) {
-                System.out.println("Nome pequeno pra uma fruta nÃ©?");
-            } else if (compare != 0 && tamanho >= 3) {
+                System.out.println("Nome pequeno pra uma fruta né?");
+            } else if (compare == 0) {
+                System.out.println("Você colocou duas frutas iguais?!");
+            } else if (empty == false && compare != 0 && tamanho >= 3) {
                 System.out.println("OK!");
             }
             if (compare != 0 && tamanho >= 3 && empty == false) {
-                System.out.print("[ " + fruits[i].toLowerCase() + " ]");
+                System.out.print("[ " + fruits[i].replace(fruits[i], fruits[i].toLowerCase()) + " ]");
             } else if (compare == 0 || tamanho < 3 || empty == true) {
-                System.out.println("VocÃª preencheu alguma fruta errado, por favor preencha a lista novamente!");
+                System.out.println("Você preencheu alguma fruta errado, por favor preencha a lista novamente!");
             }
 
         }
